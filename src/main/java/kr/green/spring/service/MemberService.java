@@ -1,5 +1,5 @@
-package com.my.site.service;
- 
+package kr.green.spring.service;
+
 public interface MemberService {
 	public String getEmail(String id);
 }

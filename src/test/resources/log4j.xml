@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.my.site">
+	<logger name="kr.green.spring">
 		<level value="info" />
 	</logger>
 	

@@ -1,9 +1,9 @@
-package com.my.site.service;
-
+package kr.green.spring.service;
+ 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
  
-import com.my.site.dao.MemberDAO;
+import kr.green.spring.dao.MemberDAO;
  
 @Service
 public class MemberServiceImp implements MemberService {
@@ -15,3 +15,4 @@ public class MemberServiceImp implements MemberService {
         return memberDao.getEmail(id);
     }
 }
+
